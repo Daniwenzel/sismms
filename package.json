@@ -1,0 +1,19 @@
+{
+  "name": "mms",
+  "version": "1.0.0",
+  "description": "Sistema mms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniwenzel/sismms.git"
+  },
+  "author": "Daniel Wenzel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniwenzel/sismms/issues"
+  },
+  "homepage": "https://github.com/Daniwenzel/sismms#readme"
+}
