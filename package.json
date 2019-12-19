@@ -2,9 +2,11 @@
   "name": "mms",
   "version": "1.0.0",
   "description": "Sistema mms",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass resources/scss/index.scss -o public/css",
+    "scss-watch": "node-sass --watch resources/scss/index.scss -o public/css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/Daniwenzel/sismms/issues"
   },
-  "homepage": "https://github.com/Daniwenzel/sismms#readme"
+  "homepage": "https://github.com/Daniwenzel/sismms#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.0",
+    "popper.js": "^1.16.0",
+    "pug": "^2.0.4",
+    "r-script": "0.0.4",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {}
 }

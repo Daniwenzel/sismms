@@ -1,0 +1,20 @@
+doctype html
+html(lang='en')
+    include partials/head
+    body
+        div(class="flex-center position-ref")
+            div(class="content container")
+            include partials/header
+
+            form(class="form" method="get" action="#")
+                h2(class="m-5") Selecione 2 torres
+                button(type="submit" class="submitButton") Gerar
+
+                div(class="inputGroup")
+                    input(
+                        type="checkbox"
+                        name="vrau"
+                        id="vrou"
+                        class="doubleSelect"
+                        value="vriu")
+                    label(for="vrou") TORRE RAZAOSOCIAL - TORRE DESSITE
